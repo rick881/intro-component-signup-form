@@ -187,9 +187,14 @@ i {
         background-image: url(./images/bg-intro-desktop.png);
         background-size: cover;
         background-repeat: no-repeat;
+        justify-content: flex-start;
     }
     .main {
-        padding: 4rem;
+        padding: 2.5rem;
+        max-width: 580px;
+    }
+    form{
+        padding: 2rem 1.5rem;
     }
 }
  
@@ -198,6 +203,7 @@ i {
         background-image: url(./images/bg-intro-desktop.png);
         background-size: cover;
         background-repeat: no-repeat;
+        justify-content: center;
     }
     .main {
         display: flex;
